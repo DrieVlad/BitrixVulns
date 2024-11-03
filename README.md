@@ -36,6 +36,9 @@ Insufficiently protected credentials in SMTP server settings in 1C-Bitrix Bitrix
 
 As a result, you will receive the SMTP password in clear text.
 
+CVSS v3: (AV:N/AC:L/PR:H/UI:N/S:C/C:H/I:N/A:N)
+Base Score: 6.8
+
 ## CVE-2024-34883 (BDU:2024-08613)
 
 [BDU:2024-08613](https://bdu.fstec.ru/vul/2024-08613)
@@ -43,9 +46,6 @@ As a result, you will receive the SMTP password in clear text.
 A remote attacker can abuse the DAV module settings and obtain the proxy server password in clear text.
 
 Insufficiently protected credentials in DAV server settings in 1C-Bitrix Bitrix24 23.300.100 allow remote administrators to read proxy-server accounts passwords via HTTP GET request.
-
-CVSS v3: (AV:N/AC:L/PR:H/UI:N/S:C/C:H/I:N/A:N)
-Base Score: 6.8
 
 ### Explotation:
 1. In the "Administration" section, go to the DAV module settings.
