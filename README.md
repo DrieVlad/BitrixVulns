@@ -17,6 +17,7 @@ Insufficiently protected credentials in AD/LDAP server settings in 1C-Bitrix Bit
 As a result, the AD domain administrator credentials will be obtained in clear text.
 
 CVSS v3: (AV:N/AC:L/PR:H/UI:N/S:C/C:H/I:N/A:N)
+
 Base Score: 6.8
 
 ## CVE-2024-34882 (BDU:2024-08612)
@@ -37,6 +38,7 @@ Insufficiently protected credentials in SMTP server settings in 1C-Bitrix Bitrix
 As a result, you will receive the SMTP password in clear text.
 
 CVSS v3: (AV:N/AC:L/PR:H/UI:N/S:C/C:H/I:N/A:N)
+
 Base Score: 6.8
 
 ## CVE-2024-34883 (BDU:2024-08613)
@@ -56,6 +58,7 @@ Insufficiently protected credentials in DAV server settings in 1C-Bitrix Bitrix2
 As a result, the credentials from the proxy server will be received in clear text.
 
 CVSS v3: (AV:N/AC:L/PR:H/UI:N/S:C/C:H/I:N/A:N)
+
 Base Score: 6.8
 
 ## CVE-2024-34885 (BDU:2024-08610)
@@ -75,6 +78,10 @@ Insufficiently protected credentials in SMTP server settings in 1C-Bitrix Bitrix
 
 As a result, you will receive the password from SMTP in base64 format.
 
+CVSS v3: (AV:N/AC:L/PR:H/UI:N/S:C/C:H/I:N/A:N)
+
+Base Score: 6.8
+
 ## CVE-2024-34891 (BDU:2024-08611)
 
 [BDU:2024-08611](https://bdu.fstec.ru/vul/2024-08611)
@@ -91,6 +98,7 @@ Insufficiently protected credentials in DAV server settings in 1C-Bitrix Bitrix2
 As a result, the credentials from the Exchange server will be received in clear text.
 
 CVSS v3: (AV:N/AC:L/PR:H/UI:N/S:C/C:H/I:N/A:N)
+
 Base Score: 6.8
 
 ## Remediation
@@ -98,4 +106,4 @@ Base Score: 6.8
 There is currently no fix. It is recommended to use least privilege credentials. It is also recommended to differentiate access rights based on the role model.
 
 Discoverer: **Vladislav Driev, Oleg Labyntsev** 
-Contacts: [https://t.me/GigaHack]
+Contacts: [GigaHackers](https://t.me/GigaHack)
