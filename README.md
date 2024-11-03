@@ -105,6 +105,7 @@ Base Score: 6.8
 
 There is currently no fix. It is recommended to use least privilege credentials. It is also recommended to differentiate access rights based on the role model.
 
-Discoverer: **Vladislav Driev, Oleg Labyntsev** 
+## Discoverer
+**Vladislav Driev, Oleg Labyntsev** 
 
 Contacts: [GigaHackers](https://t.me/GigaHack)
